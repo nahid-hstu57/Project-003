@@ -26,49 +26,37 @@
       src="https://kit.fontawesome.com/9f574eb258.js"
       crossorigin="anonymous"
     ></script>
+
+     <!-- google font -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header class=" max-w-7xl mx-auto">
-      <div class="navbar bg-base-100">
-        <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor">
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M4 6h16M4 12h8m-8 6h16" />
-              </svg>
-            </div>
-            <ul
-              tabindex="0"
-              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-              <li><a>Home</a></li>
-              <li><a href="">Services</a></li>
-              <li><a>Blog</a></li>
-              <li><a>Contact Us</a></li>
-            </ul>
-          </div>
-          <a class="btn btn-ghost text-xl"><img src="./images/logo2.png" alt=""></a>
-        </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1">
-            <li><a>Home</a></li>
-            <li><a href="">Services</a></li>
-            <li><a>Blog</a></li>
-            <li><a>Contact Us</a></li>
+    <header class="container mx-auto">
+      <nav class="lg:px-36 px-4 flex justify-between py-6 lg:border-none border-2 border-green-800">
+        <div class="">
+          <img src="./c2-assets" alt="">
+          <img src="./c2-assets/logo-header.png" alt="" class="w-full" ></div>
+        <div class="align-middle ">
+          <ul class="lg:flex gap-x-8 py-3 font-normal text-xl hidden">
+            <li>Product</li>
+            <li>Services</li>
+            <li>Contact us</li>
           </ul>
         </div>
-        <div class="navbar-end">
-          <a class="btn btn-warning">Free Consultation</a>
+        <div class="lg:hidden py-3  ">
+          <i class="fa-solid fa-bars"></i>
         </div>
-      </div>
+        <div class=" lg:flex gap-x-6 hidden">
+          <div class="flex py-3 gap-x-6">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+          </div>
+          <button type="submit" class="btn bg-none border-lime-500 ">Log in</button>
+          <button type="submit" class="btn bg-green-600 text-white">Register</button>
+        </div>
+      </nav>
     </header>
     <main></main>
     <footer></footer>
