@@ -27,38 +27,116 @@
       crossorigin="anonymous"
     ></script>
 
-     <!-- google font -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header class="container mx-auto">
-      <nav class="lg:px-36 px-4 flex justify-between py-6 lg:border-none border-2 border-green-800">
+    <header class="container mx-auto mb-24">
+      <nav
+        class="lg:px-36 px-4 flex justify-between py-6 lg:border-none border-2 border-green-800"
+      >
         <div class="">
-          <img src="./c2-assets" alt="">
-          <img src="./c2-assets/logo-header.png" alt="" class="w-full" ></div>
-        <div class="align-middle ">
+          <img src="./c2-assets" alt="" />
+          <img src="./c2-assets/logo-header.png" alt="" class="w-full" />
+        </div>
+        <div class="align-middle">
           <ul class="lg:flex gap-x-8 py-3 font-normal text-xl hidden">
             <li>Product</li>
             <li>Services</li>
             <li>Contact us</li>
           </ul>
         </div>
-        <div class="lg:hidden py-3  ">
+        <div class="lg:hidden py-3">
           <i class="fa-solid fa-bars"></i>
         </div>
-        <div class=" lg:flex gap-x-6 hidden">
+        <div class="lg:flex gap-x-6 hidden">
           <div class="flex py-3 gap-x-6">
             <i class="fa-solid fa-magnifying-glass"></i>
             <i class="fa-solid fa-cart-shopping"></i>
           </div>
-          <button type="submit" class="btn bg-none border-lime-500 ">Log in</button>
-          <button type="submit" class="btn bg-green-600 text-white">Register</button>
+          <button type="submit" class="btn bg-none border-lime-500">
+            Log in
+          </button>
+          <button type="submit" class="btn bg-green-600 text-white">
+            Register
+          </button>
         </div>
       </nav>
     </header>
-    <main></main>
+    <main>
+      <section
+        class="container lg:px-36 px-5 mx-auto justify-center text-center align-middle bg-gradient-to-b from-white to-orange-50 mb-24"
+      >
+        <div class="">
+          <h1 class="text-6xl font-semibold">
+            Freshness
+            <span class="text-green-600"
+              >You Can <br />
+              Count</span
+            >
+            On, Prices You’ll Love!
+          </h1>
+          <p class="text-xl my-8">
+            Shop your daily essentials at unbeatable prices. From fresh produce
+            to pantry <br />
+            staples, we’ve got you covered every day!
+          </p>
+          <img class="w-full" src="./c2-assets/hero-vegetables.png" alt="" />
+        </div>
+      </section>
+      <section class="container lg:px-36 px-5 mx-auto mb-24">
+        <h1 class="text-green-800 text-3xl font-semibold mb-12">Services</h1>
+        <div class="flex lg:flex-row flex-col gap-9">
+          <div class="flex flex-col bg-orange-50 rounded-xl p-8 text-center">
+              <div class="bg-white rounded-full  mx-28">
+                <img
+                class="w-full p-3 "
+                src="./c2-assets/service.png"
+                alt=""
+              />
+              </div>
+            <h1 class="text-2xl font-semibold mt-8 mb-4">24/7 Services</h1>
+            <p class="mb-10 text-xl text-gray-500">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+          <div class="flex flex-col bg-orange-50 rounded-xl p-8 text-center">
+              <div class="bg-white rounded-full  mx-28">
+                <img
+                class="w-full p-3 "
+                src="./c2-assets/delivery.png"
+                alt=""
+              />
+              </div>
+            <h1 class="text-2xl font-semibold mt-8 mb-4">Fast Delivery</h1>
+            <p class="mb-10 text-xl text-gray-500">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+          <div class="flex flex-col bg-orange-50 rounded-xl p-8 text-center">
+            <div class="bg-white rounded-full  mx-28">
+              <img
+              class="w-full p-3 "
+              src="./c2-assets/healthy.png"
+              alt=""
+            />
+            </div>
+            <h1 class="text-2xl font-semibold mt-8 mb-4">Healthy Products </h1>
+            <p class="mb-10 text-xl text-gray-500">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
